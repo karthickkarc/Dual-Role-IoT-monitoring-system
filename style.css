@@ -1,0 +1,115 @@
+/* ======================================================
+   Dual Role IoT Monitoring System
+   style.css
+====================================================== */
+
+body{
+    background:#eef2f7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight:bold;
+    color:#1b4332;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.card-header{
+    border-radius:15px 15px 0 0 !important;
+}
+
+.sensor{
+    margin-bottom:20px;
+}
+
+.sensor label{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.sensor h2{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:32px;
+}
+
+.progress{
+    height:25px;
+    border-radius:15px;
+}
+
+.progress-bar{
+    font-size:14px;
+    font-weight:bold;
+}
+
+#alerts{
+    list-style:none;
+    padding-left:0;
+}
+
+#alerts li{
+    background:#ffe5e5;
+    color:#b00020;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+canvas{
+    width:100% !important;
+    height:350px !important;
+}
+
+.footer{
+    text-align:center;
+    margin-top:30px;
+    color:gray;
+}
+
+.bg-primary{
+    background:#1565c0 !important;
+}
+
+.bg-success{
+    background:#2e7d32 !important;
+}
+
+.bg-danger{
+    background:#d32f2f !important;
+}
+
+.bg-warning{
+    background:#f9a825 !important;
+}
+
+.bg-info{
+    background:#0288d1 !important;
+}
+
+.bg-dark{
+    background:#424242 !important;
+}
+
+.shadow{
+    box-shadow:0 5px 20px rgba(0,0,0,0.2) !important;
+}
+
+.card:hover{
+    transform:scale(1.01);
+    transition:0.3s;
+}
+
+@media(max-width:768px){
+
+    .sensor h2{
+        font-size:24px;
+    }
+
+}
