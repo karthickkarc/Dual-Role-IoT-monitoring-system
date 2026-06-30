@@ -1,5 +1,6 @@
 # Dual-Role IoT Monitoring System (ESP32 \+ MQTT)
 
+Wokwi file: https://wokwi.com/projects/468167658023070721
 A simulated hospital IoT system built on an ESP32, demonstrating **role-based dashboards** for two different audiences from a single device: a **Medical Staff Dashboard** for patient vitals, and a **Facility Management Dashboard** for environmental conditions. Built and tested in [Wokwi](https://wokwi.com/).
 
 ## Overview
